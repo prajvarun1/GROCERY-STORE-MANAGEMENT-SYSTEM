@@ -9,13 +9,13 @@ Secure Data Storage: Use MySQL or SQLite databases to store and retrieve invento
 Customizable Features: Offer flexibility for adding new product categories and functionality.
 
 # Key Components
-# 1. Data Management
+1. Data Management
 Database:
 The system uses MySQL/SQLite for managing inventory, customer details, and transaction records.
 Tables:
 ITEMS_SOLD: Stores details of sold items.
 DETAILS_: Stores customer details like name and phone number.
-# 2. Feature Implementation
+2. Feature Implementation
 Customer Details
 * Collect and store customer information, including name and contact details.
 * Data is securely saved in the DETAILS_ table.
@@ -28,7 +28,7 @@ Billing System
 Graphical User Interface (GUI)
 * Developed using Python Tkinter for an intuitive user experience.
 * Multiple frames for distinct functionalities, such as Customer Details, Inventory Categories, and Billing.
-# 3. Real-Time Operations
+3. Real-Time Operations
 Dynamic entry and display of items like fruits, groceries, and beverages.
 Automatic tax calculation for food, groceries, and other categories.
 Clear, generate, and print bill functionalities for seamless operations.
